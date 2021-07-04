@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+  background: #F6F6F6;
+}
+
+.title {
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 0.1em;
+  color: rgba(234, 60, 46, 0.8);
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.pokemon__container {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+}
+
+.hero__image {
+  margin-top: 0.5em;
+}
+
+form {
+  margin-top: 2em;
+}
+
+.input_field {
+  border: none;
+  border-bottom: 1px solid rgb(143, 143, 143);
+  width: 50%;
+  padding: 0.5em;
+  padding-top: 1.4em;
+  padding-bottom: 0.4em;
+  outline: none;
+  background: white;
+}
+
+.search_btn {
+  border: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin: 0;
+  padding: 0.5em;
+  align-items: center;
+  background: #feca1b;
+}
+
+.search_btn:hover {
+  background: #c99f15;
+}
+
+.chips_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+  margin-top: 0.5em;
+}
+
+.mini_chip {
+  padding-bottom: 0.5em;
+  margin: 0 0.5em;
+}
+
+@media(max-width:1024px) {
+  .App {
+    background: none;
+  }
+
+  .pokemon__container {
+    width: 80%;
+  }
+}
+
+@media(max-width:600px) {
+  .pokemon__container {
+    width: 70%;
+  }
+
+  .hero__image {
+    width: 50%;
+  }
+
+}
