@@ -1,3 +1,17 @@
+# PokeDex Web App
+
+This app shows the stats of your Pokemon once you enter the name of your Pokemon. There is one another feature which list all the pokemon by their type. To fetch the pokemon data I used Pokemon API and I have mentioned that below. Feel free to check my app.
+
+### Pokemon API 
+https://pokeapi.co/
+
+### PokeDex Web App Link 
+https://pokedex-b35f4.web.app/
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
